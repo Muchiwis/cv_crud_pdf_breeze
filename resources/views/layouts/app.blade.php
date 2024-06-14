@@ -15,7 +15,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Rubik+Mono+One&family=Titan+One&display=swap" rel="stylesheet">
 
         {{-- <link rel="stylesheet" href="{{ asset('estilos/dashboard.css') }}"> --}}
-        <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-DZQvjrdj.css">
         <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-CB61jlRJ.css">
 
         <!-- Scripts -->
