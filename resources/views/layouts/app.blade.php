@@ -40,7 +40,10 @@
                 {{ $slot }}
             </main>
         </div>
-        @livewireScripts
+        {{-- @livewireScripts --}}
+        <script src="{{ asset('vendor/livewire/livewire.js') }}"></script>
+        <script src="https://cvcrudpdfbreeze-production.up.railway.app/vendor/livewire/livewire.js?id=07f22875"   data-csrf="DbDzZncRWyTDxXUpqKjhVrCOCmcWGLCvXErdbDzn" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+ 
         <script src="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-D9_yW7fw.js"></script>
     </body>
 </html>
