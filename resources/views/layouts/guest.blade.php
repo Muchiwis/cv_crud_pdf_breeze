@@ -12,8 +12,8 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-        <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-B4kNs5Zs.css">
+        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+        <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-DoFg4wMr.css">
         <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-CB61jlRJ.css">
     </head>
     <body class="font-sans text-gray-900 antialiased">
