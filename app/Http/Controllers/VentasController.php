@@ -33,7 +33,7 @@ class VentasController extends Controller
             //$randomString = uniqid();
             $randomString = time();
             $nombre_descarga = $randomString.'?'.$nombre_descarga;
-            return response()->download($file, $nombre_descarga);
+            return response()->download($file, $nombre_descarga, ['secure' => true]);
         } else {
             abort(404, 'El archivo no existe.');
         }
