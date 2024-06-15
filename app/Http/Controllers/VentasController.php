@@ -30,10 +30,10 @@ class VentasController extends Controller
 
         $file = storage_path('app/pdf_ventas/'.$venta_id->uri_pdf);
         if (file_exists($file)) {
-            //$randomString = uniqid();
-            $randomString = time();
+            $randomString = uniqid();
+            //$randomString = time();
             $nombre_descarga = $randomString.'?'.$nombre_descarga;
-            return response()->download($file, $nombre_descarga, ['secure' => true]);
+            return response()->download($file, $nombre_descarga);
         } else {
             abort(404, 'El archivo no existe.');
         }

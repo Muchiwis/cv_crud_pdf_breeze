@@ -14,14 +14,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Rubik+Mono+One&family=Titan+One&display=swap" rel="stylesheet">
 
-        {{-- <link rel="stylesheet" href="{{ asset('estilos/dashboard.css') }}"> --}}
-        <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-DoFg4wMr.css">
+        <link rel="stylesheet" href="{{ asset('estilos/dashboard.css') }}">
+        {{-- <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-DoFg4wMr.css">
         
-        <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-CB61jlRJ.css">
+        <link rel="stylesheet" href="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-CB61jlRJ.css"> --}}
 
         <!-- Scripts -->
         @livewireStyles
-        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
@@ -41,10 +41,8 @@
                 {{ $slot }}
             </main>
         </div>
-        {{-- @livewireScripts --}}
-        <script src="{{ asset('vendor/livewire/livewire.js') }}"></script>
-        <script src="https://cvcrudpdfbreeze-production.up.railway.app/vendor/livewire/livewire.js?id=07f22875"   data-csrf="DbDzZncRWyTDxXUpqKjhVrCOCmcWGLCvXErdbDzn" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+        @livewireScripts
  
-        <script src="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-D9_yW7fw.js"></script>
+        {{-- <script src="https://cvcrudpdfbreeze-production.up.railway.app/build/assets/app-D9_yW7fw.js"></script> --}}
     </body>
 </html>
