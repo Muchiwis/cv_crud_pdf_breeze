@@ -75,7 +75,7 @@ class VentasRequest extends FormRequest
     {
         return [
             'dni.required' => 'El DNI es obligatorio.', 
-            'dni.min' => 'El DNI debe tener al menos 8 dígitos.', 
+            'dni.digits' => 'El DNI debe ser de 8 dígitos', 
             'fecha_venta.required' => 'La fecha es obligatorio.', 
             'cliente.required' => 'El nombre es obligatorio.', 
             'cliente.min' => 'El nombre debe tener al menos 4 caracteres.', 

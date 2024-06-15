@@ -86,8 +86,8 @@
                     <tr>
                         <td>{{ $producto }}</td>
                         <td>{{ $cantidad }}</td>
-                        <td>{{ $precio_unitario }}</td>
-                        <td>{{ $monto_total }}</td>
+                        <td>S/ {{ $precio_unitario }}</td>
+                        <td>S/ {{ $monto_total }}</td>
                     </tr>
                 </tbody>
             </table>

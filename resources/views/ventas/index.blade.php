@@ -14,7 +14,10 @@
                     </div>
                 @endif
                 <div class="p-6 text-gray-900">
-                    <a href="{{ route('ventas.create', ['id' => 0]) }}" class="btn btn-primary mb-3">Nuevo Registro</a>
+                    @can('ventas.home.create')
+                        <a href="{{ route('ventas.create', ['id' => 0]) }}" class="btn btn-primary mb-3">Nuevo Registro</a>
+                        @livewire('table-component')
+                    @endcan
                     @livewire('table-component')
                 </div>
             </div>
