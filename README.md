@@ -53,7 +53,7 @@ php artisan key:generate
 
 php artisan migrate
 
-php artisan DB:seed //cargar datos de ejemplo
+php artisan db:seed //cargar datos de ejemplo
 
 npm run dev
 
