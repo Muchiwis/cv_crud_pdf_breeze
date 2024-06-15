@@ -43,6 +43,8 @@ Incluye autenticación con Laravel Breeze y roles de usuario para gestionar perm
 ## Instalación
 git clone https://github.com/Muchiwis/cv_crud_pdf_breeze.git
 
+cd cv_crud_pdf_breeze
+
 composer install
 
 npm install
